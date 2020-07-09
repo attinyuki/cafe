@@ -1,0 +1,55 @@
+@media only screen and (max-device-width: 770px){
+
+  html, body, .main{
+    width: 100%;
+  }
+  .main{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .img_wrapper{
+    padding-bottom: 50%;
+  }
+}
+
+@media only screen and (max-device-width: 600px){
+
+  .content{
+    box-shadow: 0 10px 63px 0 rgba(57,58,61,.15);
+    border-radius: 8px;
+    border-top: medium solid #A7F1FF;
+  }
+  .information{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 30px 20px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .shop_name{
+    text-align: center;
+  }
+  .shop_link a{
+    margin: 0 auto;
+  }
+  .img_wrapper{
+    width: 100%;
+    padding-bottom: 66%;
+    margin-right: 0;
+    border-radius: 0;
+    top: 0;
+  }
+  .desc{
+    max-height: 130px;
+  }
+}
+
+@media only screen and (max-device-width: 340px){
+
+  .main{
+    padding: 0 10px;
+  }
+  .information{
+    padding: 30px 10px 20px;
+  }
+}
